@@ -55,10 +55,34 @@ section {
 
 .hero {
   height: 100vh;
-  width: 100vw;
   background-image: url(../images/hero.jpg);
-  background-position: center;
+  background-position: bottom;
   background-size: cover;
   overflow: hidden;
+  position: relative;
+}
+
+.hero .call-to-action {
+  position: absolute;
+  top: 30vh;
+  height: 30vh;
+  width: 60vw;
+}
+
+.hero .call-to-action h1,
+.hero .call-to-action p {
+  color: #ffffff;
+  text-align: center;
+}
+
+.hero .call-to-action h1 {
+  text-transform: uppercase;
+  font-size: 36px;
+  font-weight: 700;
+  letter-spacing: 5.4px;
+}
+
+.hero .call-to-action .btn {
+  text-transform: uppercase;
 }
 /*# sourceMappingURL=style.prefixed.css.map */

@@ -70,9 +70,29 @@ section {
 // hero
 .hero {
   height: 100vh;
-  width: 100vw;
   background-image: url(../images/hero.jpg);
-  background-position: center;
+  background-position: bottom;
   background-size: cover;
   overflow: hidden;
+  position: relative;
+  .call-to-action {
+    position: absolute;
+    top: 30vh;
+    height: 30vh;
+    width: 60vw;
+    h1,
+    p {
+      color: $white;
+      text-align: center;
+    }
+    h1 {
+      text-transform: uppercase;
+      font-size: 36px;
+      font-weight: 700;
+      letter-spacing: 5.4px;
+    }
+    .btn {
+      text-transform: uppercase;
+    }
+  }
 }
