@@ -37,3 +37,32 @@ body {
 section {
   padding: 96px 0;
 }
+
+.section-title {
+  font-weight: 800;
+  font-size: 18px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: $maincolor;
+}
+
+.section-text {
+  font-size: 12px;
+  letter-spacing: 2px;
+  line-height: 22px;
+}
+
+.btn {
+  display: inline-block;
+  width: 192px;
+  height: 51px;
+  background-color: $maincolorDarker;
+  border-radius: 3px;
+  text-decoration: none;
+  text-align: center;
+  font-size: 12px;
+  letter-spacing: 2px;
+  line-height: 20px;
+  color: $white;
+  font-weight: bold;
+}

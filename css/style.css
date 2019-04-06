@@ -23,5 +23,37 @@ body {
 section {
   padding: 96px 0;
 }
+<<<<<<< HEAD
+=======
+
+.section-title {
+  font-weight: 800;
+  font-size: 18px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: #1abc9c;
+}
+
+.section-text {
+  font-size: 12px;
+  letter-spacing: 2px;
+  line-height: 22px;
+}
+
+.btn {
+  display: inline-block;
+  width: 192px;
+  height: 51px;
+  background-color: #16a085;
+  border-radius: 3px;
+  text-decoration: none;
+  text-align: center;
+  font-size: 12px;
+  letter-spacing: 2px;
+  line-height: 20px;
+  color: #ffffff;
+  font-weight: bold;
+}
+>>>>>>> Global_style
 
 /*# sourceMappingURL=style.css.map */
