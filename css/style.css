@@ -1,2 +1,7 @@
+*, *::before, *::after { box-sizing: border-box; }
 
-/*# sourceMappingURL=style.css.map */
+body { margin: 0; background-color: #f5f6f7; font-size: 16px; font-family: "Raleway", "sans serif"; line-height: 1.7; color: #373737; }
+
+.container { position: relative; max-width: 1140px; padding: 0 20px; margin: 0 auto; }
+
+section { padding: 96px 0; }
