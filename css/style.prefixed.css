@@ -85,4 +85,30 @@ section {
 .hero .call-to-action .btn {
   text-transform: uppercase;
 }
+
+.hero .icon-links {
+  position: absolute;
+  top: 90vh;
+  font-size: 20px;
+}
+
+.hero .icon-links a:link {
+  text-decoration: none;
+  color: red;
+}
+
+.hero .icon-links a:active,
+.hero .icon-links a:hover {
+  text-decoration: underline;
+  color: green;
+}
+
+.hero .icon-links a:visited {
+  text-decoration: none;
+  color: #f5f6f7;
+}
+
+.hero .icon-links i {
+  padding: 0 8px;
+}
 /*# sourceMappingURL=style.prefixed.css.map */

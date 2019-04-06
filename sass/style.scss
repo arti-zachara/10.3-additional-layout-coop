@@ -95,4 +95,27 @@ section {
       text-transform: uppercase;
     }
   }
+  .icon-links {
+    position: absolute;
+    top: 90vh;
+    font-size: 20px;
+
+    a:link {
+      text-decoration: none;
+      color: red;
+    }
+    a:active,
+    a:hover {
+      text-decoration: underline;
+      color: green;
+    }
+    a:visited {
+      text-decoration: none;
+      color: $background;
+    }
+
+    i {
+      padding: 0 8px;
+    }
+  }
 }
