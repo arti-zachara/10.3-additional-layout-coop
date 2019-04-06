@@ -1,2 +1,56 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: #f5f6f7;
+  font-size: 16px;
+  font-family: "Raleway", "sans serif";
+  line-height: 1.7;
+  color: #373737;
+}
+
+.container {
+  position: relative;
+  max-width: 1140px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+section {
+  padding: 96px 0;
+}
+
+.section-title {
+  font-weight: 800;
+  font-size: 18px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: #1abc9c;
+}
+
+.section-text {
+  font-size: 12px;
+  letter-spacing: 2px;
+  line-height: 22px;
+}
+
+.btn {
+  display: inline-block;
+  width: 192px;
+  height: 51px;
+  background-color: #16a085;
+  border-radius: 3px;
+  text-decoration: none;
+  text-align: center;
+  font-size: 12px;
+  letter-spacing: 2px;
+  line-height: 20px;
+  color: #ffffff;
+  font-weight: bold;
+}
 
 /*# sourceMappingURL=style.css.map */
