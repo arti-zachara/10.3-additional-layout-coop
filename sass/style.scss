@@ -124,3 +124,23 @@ section {
     }
   }
 }
+// Downlnad
+.download {
+  text-align: center;
+  .section-title {
+    color: $maincolor;
+  }
+  .btn1 {
+    text-align: none;
+    background-color: $maincolor;
+    i {
+      display: inline-block;
+      width: 50px;
+      height: 51px;
+      background-color: $maincolorDarker;
+      border: none;
+    }
+  }
+}
+
+//Footer

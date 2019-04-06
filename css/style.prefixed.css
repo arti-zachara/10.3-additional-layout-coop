@@ -124,4 +124,25 @@ section {
 .design .row .image img {
   height: 500px;
 }
+
+.download {
+  text-align: center;
+}
+
+.download .section-title {
+  color: #1abc9c;
+}
+
+.download .btn1 {
+  text-align: none;
+  background-color: #1abc9c;
+}
+
+.download .btn1 i {
+  display: inline-block;
+  width: 50px;
+  height: 51px;
+  background-color: #16a085;
+  border: none;
+}
 /*# sourceMappingURL=style.prefixed.css.map */
