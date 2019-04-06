@@ -23,8 +23,6 @@ body {
 section {
   padding: 96px 0;
 }
-<<<<<<< HEAD
-=======
 
 .section-title {
   font-weight: 800;
@@ -54,5 +52,13 @@ section {
   color: #ffffff;
   font-weight: bold;
 }
->>>>>>> Global_style
+
+.hero {
+  height: 100vh;
+  width: 100vw;
+  background-image: url(../images/hero.jpg);
+  background-position: center;
+  background-size: cover;
+  overflow: hidden;
+}
 /*# sourceMappingURL=style.prefixed.css.map */
