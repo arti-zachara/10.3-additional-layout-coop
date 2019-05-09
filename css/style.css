@@ -1,115 +1,33 @@
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
+*, *::before, *::after { box-sizing: border-box; }
 
-body {
-  margin: 0;
-  background-color: #f5f6f7;
-  font-size: 16px;
-  font-family: "Raleway", "sans serif";
-  line-height: 1.7;
-  color: #373737;
-}
+body { margin: 0; background-color: #f5f6f7; font-size: 16px; font-family: "Raleway", "sans serif"; line-height: 1.7; color: #373737; }
 
-.container {
-  position: relative;
-  max-width: 1140px;
-  padding: 0 20px;
-  margin: 0 auto;
-}
+.container { position: relative; max-width: 1140px; padding: 0 20px; margin: 0 auto; }
 
-section {
-  padding: 96px 0;
-}
+section { padding: 96px 0; }
 
-.section-title {
-  font-weight: 800;
-  font-size: 18px;
-  text-transform: uppercase;
-  letter-spacing: 3px;
-  color: #1abc9c;
-}
+.section-title { font-weight: 800; font-size: 18px; text-transform: uppercase; letter-spacing: 3px; color: #1abc9c; }
 
-.section-text {
-  font-size: 12px;
-  letter-spacing: 2px;
-  line-height: 22px;
-}
+.section-text { font-size: 12px; letter-spacing: 2px; line-height: 22px; }
 
-.btn {
-  display: inline-block;
-  width: 192px;
-  height: 51px;
-  background-color: #16a085;
-  border-radius: 3px;
-  text-decoration: none;
-  text-align: center;
-  font-size: 12px;
-  letter-spacing: 2px;
-  line-height: 20px;
-  color: #ffffff;
-  font-weight: bold;
-}
+.btn { display: inline-block; width: 192px; height: 51px; background-color: #16a085; border-radius: 3px; text-decoration: none; text-align: center; font-size: 12px; letter-spacing: 2px; line-height: 20px; color: #ffffff; font-weight: bold; }
 
-.hero {
-  height: 100vh;
-  background-image: url(../images/hero.jpg);
-  background-position: bottom;
-  background-size: cover;
-  overflow: hidden;
-  position: relative;
-}
+.hero { height: 100vh; background-image: url(../images/hero.jpg); background-position: bottom; background-size: cover; overflow: hidden; position: relative; }
 
-.hero .call-to-action {
-  position: absolute;
-  top: 30vh;
-  height: 30vh;
-  width: 60vw;
-}
+.hero .call-to-action { position: absolute; top: 30vh; height: 30vh; width: 60vw; }
 
-.hero .call-to-action h1,
-.hero .call-to-action p {
-  color: #ffffff;
-  text-align: center;
-}
+.hero .call-to-action h1, .hero .call-to-action p { color: #ffffff; text-align: center; }
 
-.hero .call-to-action h1 {
-  text-transform: uppercase;
-  font-size: 36px;
-  font-weight: 700;
-  letter-spacing: 5.4px;
-}
+.hero .call-to-action h1 { text-transform: uppercase; font-size: 36px; font-weight: 700; letter-spacing: 5.4px; }
 
-.hero .call-to-action .btn {
-  text-transform: uppercase;
-}
+.hero .call-to-action .btn { text-transform: uppercase; }
 
-.hero .icon-links {
-  position: absolute;
-  top: 90vh;
-  font-size: 20px;
-}
+.hero .icon-links { position: absolute; top: 90vh; font-size: 20px; }
 
-.hero .icon-links a:link {
-  text-decoration: none;
-  color: red;
-}
+.hero .icon-links a:link { text-decoration: none; color: red; }
 
-.hero .icon-links a:active,
-.hero .icon-links a:hover {
-  text-decoration: underline;
-  color: green;
-}
+.hero .icon-links a:active, .hero .icon-links a:hover { text-decoration: underline; color: green; }
 
-.hero .icon-links a:visited {
-  text-decoration: none;
-  color: #f5f6f7;
-}
+.hero .icon-links a:visited { text-decoration: none; color: #f5f6f7; }
 
-.hero .icon-links i {
-  padding: 0 8px;
-}
-
-/*# sourceMappingURL=style.css.map */
+.hero .icon-links i { padding: 0 8px; }
